@@ -1,5 +1,6 @@
 *{
   margin: 0;
+  box-sizing: border-box;
 }
 
 body{
@@ -14,8 +15,6 @@ body{
   width: 80%;
   max-width: 400px;
   margin-inline: auto;
-
-  border: 2px solid red;
 }
 
 h1{
@@ -52,4 +51,16 @@ button{
 button:hover{
   filter: brightness(1.2);
   cursor: pointer;
+}
+
+#resposta{
+  margin-top: 30px;
+
+  transition: opacity 1s;
+}
+#resposta div{
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
 }
